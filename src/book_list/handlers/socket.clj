@@ -8,6 +8,13 @@
 
 (def ^:private ws-conns (ref #{}))
 
+(def printer (agent nil))
+
+(defn print [old new]
+  (println new)
+  )
+
+
 (defn send-all [data]
   (doall (for [c @ws-conns]
            (kit/send! c (json/generate-string data))
@@ -29,14 +36,23 @@
     )
   )
 
+(defmacro print-hyi []
+  `(println "HYI")
+  )
+
+
 (defn socket-handler [request]
   (kit/with-channel request channel
-                    (dosync (alter ws-conns conj channel))
+                    (dosync (do (alter ws-conns conj channel) (println "chanel open") (print-hyi) (println (count @ws-conns))))
+
                     (kit/on-close channel (fn [status]
                                             (println "chanel closed " status)
-                                            (alter ws-conns disj channel))
+                                            (dosync (alter ws-conns disj channel))
+                                            (send-all {:req "users" :data (count @ws-conns)})
+                                            )
                                               )
                     (kit/on-receive channel (fn [data]
+                                              (send-off printer print data)
                                               (let [socket-request (json/parse-string data)]
                                                 (case (socket-request "req")
                                                   "HYI" (doall (for [c @ws-conns]

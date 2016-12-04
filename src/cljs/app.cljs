@@ -12,6 +12,7 @@
   )
 
 
+
 (defn skelet [& children]
 
       [:div
@@ -39,13 +40,14 @@
   (reset! socket (js/WebSocket. "ws://localhost:3000/socket"))
   (doall
     (map #(aset @socket (first %) (second %))
-         [["onopen" (fn [] (js/console.log "OPEN"))]
+         [["onopen" (fn [] (js/console.log "OPEN")  )]
           ["onclose" (fn [] (js/console.log "CLOSE"))]
           ["onerror" (fn [e] (js/console.log (str "ERROR:" e)))]
           ["onmessage" (fn [data] (let [socket-request (parseJSON (.-data data))]
                                     (case (.-req socket-request)
                                       "like" (handle-like-response (.-data socket-request))
                                       "dislike" (handle-like-response (.-data socket-request))
+                                      "users" (js/console.log (.-data socket-request))
                                       )
                                     )
                          )]]))

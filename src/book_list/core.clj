@@ -22,10 +22,20 @@
         book-list.routes.films
         book-list.routes.auth
         book-list.routes.comment
-        ))
+        )
+  (:import (java.io BufferedWriter FileWriter))
+  )
 
 
 
+
+(defn simple-logging-middleware [app]
+
+  (fn [req]
+
+    (app req)
+
+    ))
 
 (defn app-routes []
   (routes
@@ -48,7 +58,9 @@
                             })
       site
       (middleware/wrap-json-body {:keywords? true})
-      middleware/wrap-json-response))
+      middleware/wrap-json-response
+      simple-logging-middleware
+      ))
 
 
 (defn -main [& args]

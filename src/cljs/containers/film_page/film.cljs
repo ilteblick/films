@@ -13,7 +13,7 @@
     {
      :reagent-render
      (fn []
-       [:div
+       ^{:key (:id comment)} [:div
         [:h1 "Info: " (:info comment)]
         [:h1 "user: " (:User_id comment)]
         ])

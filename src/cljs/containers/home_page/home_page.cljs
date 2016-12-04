@@ -13,7 +13,7 @@
       {
        :reagent-render
        (fn []
-         [:div
+         ^{:key (:id film)} [:div
           [:h1 "Name: " (:name film)]
           [:a {:href (str "/film/" (:id film))} "about"]
           ])
