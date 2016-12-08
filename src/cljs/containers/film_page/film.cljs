@@ -2,11 +2,32 @@
   (:require [reagent.core :as reagent]
             [containers.film-page.reducer :refer [current-film-reducer comments-reducer]]
             [ajax.core :refer [GET POST json-response-format]]
-            [bootstrap.socket :refer [like-film dislike-film]]
+            [bootstrap.socket :refer [like-film dislike-film create-film]]
   )
   )
 
+(defn get-elem-value [id]
+  (.-value (.getElementById js/document id))
+  )
 
+(defn create-film-form []
+       [:div
+         [:input {:id "name" :name "name"}]
+         [:input {:id "producer" :name "producer"}]
+         [:input {:id "year" :name "year"}]
+         [:imput {:type "button"
+                  :on-click (fn []
+                     (let [name (get-elem-value "name") ]
+                       (let [producer (get-elem-value "producer") ]
+                         (let [year (get-elem-value "year") ]
+                           (create-film {:name name :producer producer :year year})
+                           )
+                         )
+                       )
+                     )
+                   } "Create"]
+        ]
+  )
 
 (defn comment-component [comment]
   (reagent/create-class

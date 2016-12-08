@@ -18,7 +18,6 @@
    [:meta {:name "viewport"
            :content "width=device-width, initial-scale=1"}]
    (include-css (if (env :dev) "/css/bootstrap.css" "/css/bootstrap.min.css"))
-   (include-css (if (env :dev) "/css/site.css" "/css/site.min.css"))
    (include-css (if (env :dev) "https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"))
    ;(include-js "https://code.jquery.com/jquery-2.1.1.min.js")
    (include-js "/js/jquery.js")

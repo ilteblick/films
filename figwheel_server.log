@@ -8479,3 +8479,1418 @@ notifying browser that file changed:  out\book_list\cljs\app.js
 [0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.608 seconds.[0m
 notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.578 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.817 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.669 seconds.[0m
+[36m----  Could not Read  src/cljs/app.cljs   line:34  column:67  ----[0m
+
+  [1mReader tag must be a symbol[0m
+
+  [36m33[0m  [36m(secretary/defroute "/film/create" [id][0m
+  [33m34[0m  [1m                    (session/put! :current-page #`create-film-form))[0m
+  [0m  [0m  [33m                                                                  ^--- Reader tag must be a symbol[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn mount-root [][0m
+
+[36m----  Reader Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.74 seconds.[0m
+[36m----  Could not Analyze  src/cljs/app.cljs  ----[0m
+
+  [1mInvalid :refer, var containers.create_film_form.create_film_form/create-film-form does not exist [0m
+
+[36m----  Analysis Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.768 seconds.[0m
+[36m----  Could not Read  src/cljs/app.cljs   line:34  column:67  ----[0m
+
+  [1mReader tag must be a symbol[0m
+
+  [36m33[0m  [36m(secretary/defroute "/film/create" [id][0m
+  [33m34[0m  [1m                    (session/put! :current-page #`create-film-form))[0m
+  [0m  [0m  [33m                                                                  ^--- Reader tag must be a symbol[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn mount-root [][0m
+
+[36m----  Reader Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.931 seconds.[0m
+[36m----  Could not Read  src/cljs/app.cljs   line:34  column:67  ----[0m
+
+  [1mReader tag must be a symbol[0m
+
+  [36m33[0m  [36m(secretary/defroute "/film/create" [id][0m
+  [33m34[0m  [1m                    (session/put! :current-page #`create-film-form))[0m
+  [0m  [0m  [33m                                                                  ^--- Reader tag must be a symbol[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn mount-root [][0m
+
+[36m----  Reader Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 1.68 seconds.[0m
+[36m----  Could not Read  src/cljs/app.cljs   line:34  column:67  ----[0m
+
+  [1mReader tag must be a symbol[0m
+
+  [36m33[0m  [36m(secretary/defroute "/film/create" [][0m
+  [33m34[0m  [1m                    (session/put! :current-page #`create-film-form))[0m
+  [0m  [0m  [33m                                                                  ^--- Reader tag must be a symbol[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn mount-root [][0m
+
+[36m----  Reader Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 6.341 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 7.565 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.12 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.665 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.638 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\create_film_form\create_film_form.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.599 seconds.[0m
+notifying browser that file changed:  out\containers\create_film_form\create_film_form.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.842 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.981 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.513 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.068 seconds.[0m
+[36m----  Could not Analyze  src/cljs/app.cljs   line:1  column:1  ----[0m
+
+  [1m:as must be followed by a symbol in :require / :require-macros; offending spec: [containers.create-film-form.create-film-form :as [create-film-form]] at line 1 src\cljs\app.cljs[0m
+
+  [33m1[0m  [1m(ns book-list.cljs.app[0m
+  [0m [0m  [33m^--- :as must be followed by a symbol in :require / :require-macros; offending spec: [containers.create-film-form.create-film-form :as [create-film-form]] at line 1 src\cljs\app.cljs[0m
+  [36m2[0m  [36m  (:require [reagent.core :as reagent][0m
+  [36m3[0m  [36m            [reagent.session :as session][0m
+  [36m4[0m  [36m            [secretary.core :as secretary :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.646 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.449 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.498 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.453 seconds.[0m
+[36m----  Could not Analyze  src/cljs/app.cljs  ----[0m
+
+  [1mInvalid :refer, var containers.create_film_form.create-film-form/create-film-form does not exist [0m
+
+[36m----  Analysis Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.624 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.48 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.7 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.463 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.467 seconds.[0m
+[36m----  Could not Read  src/cljs/app.cljs   line:34  column:52  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m33[0m  [36m(secretary/defroute "/film/create" [][0m
+  [33m34[0m  [1m                    (session/put! :current-page #'))[0m
+  [0m  [0m  [33m                                                   ^--- Unmatched delimiter )[0m
+
+[36m----  Reader Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.649 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  (reagent/create-class[0m
+  [36m11[0m  [36m    {[0m
+  [36m12[0m  [36m     :reagent-render[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.534 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  (reagent/create-class[0m
+  [36m11[0m  [36m    {[0m
+  [36m12[0m  [36m     :reagent-render[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.535 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  (reagent/create-class[0m
+  [36m11[0m  [36m    {[0m
+  [36m12[0m  [36m     :reagent-render[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.553 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  (reagent/create-class[0m
+  [36m11[0m  [36m    {[0m
+  [36m12[0m  [36m     :reagent-render[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.45 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  [0m
+  [36m11[0m  [36m  (reagent/create-class[0m
+  [36m12[0m  [36m    {[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.477 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  [0m
+  [36m11[0m  [36m  (reagent/create-class[0m
+  [36m12[0m  [36m    {[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.412 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  (reagent/create-class[0m
+  [36m11[0m  [36m    {[0m
+  [36m12[0m  [36m     :reagent-render[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.348 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  (reagent/create-class[0m
+  [36m11[0m  [36m    {[0m
+  [36m12[0m  [36m     :reagent-render[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.44 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  (reagent/create-class[0m
+  [36m11[0m  [36m    {[0m
+  [36m12[0m  [36m     :reagent-render[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.443 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 9 and column 1[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 9 and column 1[0m
+  [36m10[0m  [36m  (reagent/create-class[0m
+  [36m11[0m  [36m    {[0m
+  [36m12[0m  [36m     :reagent-render[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 3.653 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.538 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.822 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.744 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.682 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 6.473 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.677 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.724 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.779 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.646 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.611 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.732 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.581 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.53 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 5.225 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.741 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.684 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.713 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:21  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent.core/create-clas[0m
+
+  [36m17[0m  [36m     })[0m
+  [36m18[0m  [36m  )[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn comment-component [comment][0m
+  [33m21[0m  [1m  (reagent/create-clas ""[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent.core/create-clas[0m
+  [36m22[0m  [36m    {[0m
+  [36m23[0m  [36m     :reagent-render[0m
+  [36m24[0m  [36m     (fn [][0m
+  [36m25[0m  [36m       ^{:key (:id comment)} [:div[0m
+  [36m26[0m  [36m        [:h1 "Info: " (:info comment)][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.824 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:21  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent.core/create-clas[0m
+
+  [36m17[0m  [36m     })[0m
+  [36m18[0m  [36m  )[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn comment-component [comment][0m
+  [33m21[0m  [1m  (reagent/create-clas [0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent.core/create-clas[0m
+  [36m22[0m  [36m    {[0m
+  [36m23[0m  [36m     :reagent-render[0m
+  [36m24[0m  [36m     (fn [][0m
+  [36m25[0m  [36m       ^{:key (:id comment)} [:div[0m
+  [36m26[0m  [36m        [:h1 "Info: " (:info comment)][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.661 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.514 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.591 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.463 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.583 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.575 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.682 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.584 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.648 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.505 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.604 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.53 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.526 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.614 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.525 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.566 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.74 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.516 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.453 seconds.[0m
+[36m----  Could not Read  src/cljs/app.cljs   line:29  column:66  ----[0m
+
+  [1mNo reader function for tag create-film-form[0m
+
+  [36m28[0m  [36m(secretary/defroute "/" [][0m
+  [33m29[0m  [1m                    (session/put! :current-page #create-film-form))[0m
+  [0m  [0m  [33m                                                                 ^--- No reader function for tag create-film-form[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(secretary/defroute "/film/create" [][0m
+  [36m32[0m  [36m                    (session/put! :current-page #(create-film-form)))[0m
+
+[36m----  Reader Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.579 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.394 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.536 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.558 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.427 seconds.[0m
+[36m----  Could not Analyze  src/cljs/app.cljs   line:29  column:21  ----[0m
+
+  [1mclojure.lang.PersistentList cannot be cast to clojure.lang.Named[0m
+
+  [36m28[0m  [36m(secretary/defroute "/" [][0m
+  [33m29[0m  [1m                    (session/put! :current-page #'(create-film-form) ))[0m
+  [0m  [0m  [33m                    ^--- clojure.lang.PersistentList cannot be cast to clojure.lang.Named[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(secretary/defroute "/film/create" [][0m
+  [36m32[0m  [36m                    (session/put! :current-page #(create-film-form)))[0m
+
+[36m----  Analysis Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.661 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.424 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.527 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.512 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.448 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.618 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.92 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.606 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.632 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.583 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.482 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.511 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.534 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:10  column:3  ----[0m
+
+  [1mWrong number of args (1) passed to reagent.core/render[0m
+
+  [36m 6[0m  [36m  )[0m
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [36m 9[0m  [36m(defn create-film-form [][0m
+  [33m10[0m  [1m  (reagent/render[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (1) passed to reagent.core/render[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m       [:div[0m
+  [36m13[0m  [36m        [:h1 "LOL"][0m
+  [36m14[0m  [36m        ])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.536 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.479 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.356 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.455 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.474 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.451 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.494 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.539 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.493 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.442 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.454 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.45 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.486 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.522 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.475 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.586 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.462 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.545 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.649 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.556 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.633 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.597 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.622 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.701 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.651 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 5.846 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\bootstrap\socket.js
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.788 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.398 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:14  column:46  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m12[0m  [36m       [:input {:producer "producer"}][0m
+  [36m13[0m  [36m       [:input {:year "year"}][0m
+  [33m14[0m  [1m       [:button {:type "submit" :on-click } "Create"][0m
+  [0m  [0m  [33m                                           ^--- Map literal must contain an even number of forms[0m
+  [36m15[0m  [36m      ][0m
+  [36m16[0m  [36m)[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.446 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:16  column:36  ----[0m
+
+  [1mInvalid token: js/[0m
+
+  [36m14[0m  [36m [:button {:type "submit" :on-click[0m
+  [36m15[0m  [36m           (fn [][0m
+  [33m16[0m  [1m             (let [name js/])[0m
+  [0m  [0m  [33m                           ^--- Invalid token: js/[0m
+  [36m17[0m  [36m             )[0m
+  [36m18[0m  [36m           } "Create"][0m
+  [36m19[0m  [36m][0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.751 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:16  column:36  ----[0m
+
+  [1mInvalid token: js/[0m
+
+  [36m14[0m  [36m [:button {:type "submit" :on-click[0m
+  [36m15[0m  [36m           (fn [][0m
+  [33m16[0m  [1m             (let [name js/])[0m
+  [0m  [0m  [33m                           ^--- Invalid token: js/[0m
+  [36m17[0m  [36m             )[0m
+  [36m18[0m  [36m           } "Create"][0m
+  [36m19[0m  [36m][0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.814 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.548 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.608 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.638 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.574 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.831 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.671 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.565 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.728 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.593 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.326 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:9  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/defn--26379[0m
+
+  [36m 7[0m  [36m  )[0m
+  [36m 8[0m  [36m[0m
+  [33m 9[0m  [1m(defn )[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/defn--26379[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(defn create-film-form [][0m
+  [36m12[0m  [36m       [:div[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:17  column:72  ----[0m
+
+  [1mUse of undeclared Var containers.film-page.film/lol[0m
+
+  [36m13[0m  [36m       [:input {:producer "producer"}][0m
+  [36m14[0m  [36m       [:input {:year "year"}][0m
+  [36m15[0m  [36m       [:button {:type "submit" :on-click[0m
+  [36m16[0m  [36m                 (fn [][0m
+  [33m17[0m  [1m                   (let [name (.-value (.getElementById js/document (lol "name"))) ][0m
+  [0m  [0m  [33m                                                                     ^--- Use of undeclared Var containers.film-page.film/lol[0m
+  [36m18[0m  [36m                     (js/console.log name))[0m
+  [36m19[0m  [36m                   )[0m
+  [36m20[0m  [36m                 } "Create"][0m
+  [36m21[0m  [36m      ][0m
+  [36m22[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.77 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.51 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.525 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.506 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.617 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.937 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:24  column:46  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m20[0m  [36m(fn [][0m
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [33m24[0m  [1m         (create-film-req (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                          ^--- Wrong number of args (5) passed to :name[0m
+  [36m25[0m  [36m        )[0m
+  [36m26[0m  [36m      )[0m
+  [36m27[0m  [36m    )[0m
+  [36m28[0m  [36m  )[0m
+  [36m29[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.826 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:24  column:46  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m20[0m  [36m(fn [][0m
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [33m24[0m  [1m         (create-film-req (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                          ^--- Wrong number of args (5) passed to :name[0m
+  [36m25[0m  [36m        )[0m
+  [36m26[0m  [36m      )[0m
+  [36m27[0m  [36m    )[0m
+  [36m28[0m  [36m  )[0m
+  [36m29[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.759 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.449 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:24  column:55  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m20[0m  [36m(fn [][0m
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [33m24[0m  [1m         (create-film-req (js->clj (:name name :producer producer :year year)) )[0m
+  [0m  [0m  [33m                                   ^--- Wrong number of args (5) passed to :name[0m
+  [36m25[0m  [36m        )[0m
+  [36m26[0m  [36m      )[0m
+  [36m27[0m  [36m    )[0m
+  [36m28[0m  [36m  )[0m
+  [36m29[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.911 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.557 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:24  column:46  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m20[0m  [36m(fn [][0m
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [33m24[0m  [1m         (create-film-req (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                          ^--- Wrong number of args (5) passed to :name[0m
+  [36m25[0m  [36m        )[0m
+  [36m26[0m  [36m      )[0m
+  [36m27[0m  [36m    )[0m
+  [36m28[0m  [36m  )[0m
+  [36m29[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.842 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.557 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:24  column:46  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m20[0m  [36m(fn [][0m
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [33m24[0m  [1m         (create-film-req (:name (js->clj name)  :producer (js->clj producer) :year (js->clj year)))[0m
+  [0m  [0m  [33m                          ^--- Wrong number of args (5) passed to :name[0m
+  [36m25[0m  [36m        )[0m
+  [36m26[0m  [36m      )[0m
+  [36m27[0m  [36m    )[0m
+  [36m28[0m  [36m  )[0m
+  [36m29[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.11 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:46  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log name producer year)[0m
+  [33m25[0m  [1m         (create-film-req (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                          ^--- Wrong number of args (5) passed to :name[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.213 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.557 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.358 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:29  column:23  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m27[0m  [36m                       )[0m
+  [36m28[0m  [36m                     )[0m
+  [33m29[0m  [1m                   )[0m
+  [0m  [0m  [33m                    ^--- Unmatched delimiter )[0m
+  [36m30[0m  [36m                 } "Create"][0m
+  [36m31[0m  [36m      ][0m
+  [36m32[0m  [36m)[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.388 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:29  column:23  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m27[0m  [36m                       )[0m
+  [36m28[0m  [36m                     )[0m
+  [33m29[0m  [1m                   )[0m
+  [0m  [0m  [33m                    ^--- Unmatched delimiter )[0m
+  [36m30[0m  [36m                 } "Create"][0m
+  [36m31[0m  [36m      ][0m
+  [36m32[0m  [36m)[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.771 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.498 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:45  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log name producer year)[0m
+  [33m25[0m  [1m        (create-film-req (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                         ^--- Wrong number of args (5) passed to :name[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.865 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.826 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.467 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:46  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log name producer year)[0m
+  [33m25[0m  [1m        (create-film-req  (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                          ^--- Wrong number of args (5) passed to :name[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.817 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:28  ----[0m
+
+  [1mWrong number of args (2) passed to bootstrap.socket/create-film-req[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log name producer year)[0m
+  [33m25[0m  [1m        (create-film-req  (..js) (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m        ^--- Wrong number of args (2) passed to bootstrap.socket/create-film-req[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.364 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:25  column:46  ----[0m
+
+  [1mUnknown dot form of (. nil .js nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()][0m
+
+  [36m23[0m  [36m  (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m    (js/console.log name producer year)[0m
+  [33m25[0m  [1m    (create-film-req  (..js) (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                      ^--- Unknown dot form of (. nil .js nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()][0m
+  [36m26[0m  [36m    )[0m
+  [36m27[0m  [36m  )[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:28  ----[0m
+
+  [1mWrong number of args (2) passed to bootstrap.socket/create-film-req[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log name producer year)[0m
+  [33m25[0m  [1m        (create-film-req  (..js) (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m        ^--- Wrong number of args (2) passed to bootstrap.socket/create-film-req[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.49 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:25  column:46  ----[0m
+
+  [1mUnknown dot form of (. nil .js nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()][0m
+
+  [36m23[0m  [36m  (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m    (js/console.log name producer year)[0m
+  [33m25[0m  [1m    (create-film-req  (..js) (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                      ^--- Unknown dot form of (. nil .js nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()][0m
+  [36m26[0m  [36m    )[0m
+  [36m27[0m  [36m  )[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:28  ----[0m
+
+  [1mWrong number of args (2) passed to bootstrap.socket/create-film-req[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log name producer year)[0m
+  [33m25[0m  [1m        (create-film-req  (.. js/object ) (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m        ^--- Wrong number of args (2) passed to bootstrap.socket/create-film-req[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.349 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:25  column:46  ----[0m
+
+  [1mWrong number of args (1) passed to: core/-DOT--DOT-[0m
+
+  [36m23[0m  [36m  (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m    (js/console.log name producer year)[0m
+  [33m25[0m  [1m    (create-film-req  (.. js/object ) (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                      ^--- Wrong number of args (1) passed to: core/-DOT--DOT-[0m
+  [36m26[0m  [36m    )[0m
+  [36m27[0m  [36m  )[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:28  ----[0m
+
+  [1mWrong number of args (2) passed to bootstrap.socket/create-film-req[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log name producer year)[0m
+  [33m25[0m  [1m        (create-film-req  (.. js/object ) (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m        ^--- Wrong number of args (2) passed to bootstrap.socket/create-film-req[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.34 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:25  column:46  ----[0m
+
+  [1mWrong number of args (1) passed to: core/-DOT--DOT-[0m
+
+  [36m23[0m  [36m  (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m    (js/console.log name producer year)[0m
+  [33m25[0m  [1m    (create-film-req  (.. js/object ) (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                      ^--- Wrong number of args (1) passed to: core/-DOT--DOT-[0m
+  [36m26[0m  [36m    )[0m
+  [36m27[0m  [36m  )[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.339 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:25  column:45  ----[0m
+
+  [1mUnknown dot form of (. name -name (.-producer producer .-year year)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr][0m
+
+  [36m23[0m  [36m  (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m    (js/console.log name producer year)[0m
+  [33m25[0m  [1m    (create-film-req (.-name name .-producer producer .-year year))[0m
+  [0m  [0m  [33m                     ^--- Unknown dot form of (. name -name (.-producer producer .-year year)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr][0m
+  [36m26[0m  [36m    )[0m
+  [36m27[0m  [36m  )[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.316 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:25  column:45  ----[0m
+
+  [1mUnknown dot form of (. name -name (.-producer producer .-year year)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr][0m
+
+  [36m23[0m  [36m  (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m    (js/console.log name producer year)[0m
+  [33m25[0m  [1m    (create-film-req (.-name name .-producer producer .-year year))[0m
+  [0m  [0m  [33m                     ^--- Unknown dot form of (. name -name (.-producer producer .-year year)) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr][0m
+  [36m26[0m  [36m    )[0m
+  [36m27[0m  [36m  )[0m
+  [36m28[0m  [36m)[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.602 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.381 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:45  ----[0m
+
+  [1mWrong number of args (5) passed to :name[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log name producer year)[0m
+  [33m25[0m  [1m        (create-film-req (:name name :producer producer :year year))[0m
+  [0m  [0m  [33m                         ^--- Wrong number of args (5) passed to :name[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.8 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.616 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.662 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.718 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.744 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.707 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:25  column:28  ----[0m
+
+  [1mWrong number of args (0) passed to bootstrap.socket/create-film-req[0m
+
+  [36m21[0m  [36m  (let [name (get-elem-value "name") ][0m
+  [36m22[0m  [36m    (let [producer (get-elem-value "producer") ][0m
+  [36m23[0m  [36m      (let [year (get-elem-value "year") ][0m
+  [36m24[0m  [36m        (js/console.log (js->clj (js-obj :name name :producer producer :year year)))[0m
+  [33m25[0m  [1m        (create-film-req )[0m
+  [0m  [0m  [33m        ^--- Wrong number of args (0) passed to bootstrap.socket/create-film-req[0m
+  [36m26[0m  [36m        )[0m
+  [36m27[0m  [36m      )[0m
+  [36m28[0m  [36m    )[0m
+  [36m29[0m  [36m  )[0m
+  [36m30[0m  [36m} "Create"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.818 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.705 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.463 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.82 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.652 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.874 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.014 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.72 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.643 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.649 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.602 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.666 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.819 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.8 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.828 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.751 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.861 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.865 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.671 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.034 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.82 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.778 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.634 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.701 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.649 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.68 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.653 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.747 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.591 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.615 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.756 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.365 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:29  column:21  ----[0m
+
+  [1mUnmatched delimiter }[0m
+
+  [36m27[0m  [36m                       )[0m
+  [36m28[0m  [36m[0m
+  [33m29[0m  [1m                   } "Create"][0m
+  [0m  [0m  [33m                    ^--- Unmatched delimiter }[0m
+  [36m30[0m  [36m        ][0m
+  [36m31[0m  [36m  )[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.58 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.476 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.527 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.512 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.607 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.547 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.71 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.577 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.635 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/bootstrap/socket.cljs   line:26  column:70  ----[0m
+
+  [1mUse of undeclared Var bootstrap.socket/id[0m
+
+  [36m22[0m  [36m  )[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defn create-film-req [data][0m
+  [36m25[0m  [36m  (js/console.log (.stringify js/JSON (clj->js {:req "create/film" :data data})))[0m
+  [33m26[0m  [1m  #(.send @socket (.stringify js/JSON (clj->js {:req "like/film" :id id})))[0m
+  [0m  [0m  [33m                                                                     ^--- Use of undeclared Var bootstrap.socket/id[0m
+  [36m27[0m  [36m  )[0m
+
+[36m----  Compiler Warning : Please see src/cljs/bootstrap/socket.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.659 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.618 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.423 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.585 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.387 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs  ----[0m
+
+  [1mInvalid :refer, var bootstrap.socket/create-film-req does not exist [0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.621 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.409 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.402 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:22  column:26  ----[0m
+
+  [1mclojure.lang.PersistentList cannot be cast to clojure.lang.Named[0m
+
+  [36m20[0m  [36m(let [name (get-elem-value "name") ][0m
+  [36m21[0m  [36m  (let [producer (get-elem-value "producer") ][0m
+  [33m22[0m  [1m    (let [year (get-elem-value "year") ][0m
+  [0m  [0m  [33m    ^--- clojure.lang.PersistentList cannot be cast to clojure.lang.Named[0m
+  [36m23[0m  [36m      #'(create-film {:name name :producer producer :year year})[0m
+  [36m24[0m  [36m      )[0m
+  [36m25[0m  [36m    )[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.426 seconds.[0m
+[36m----  Could not Analyze  src/cljs/containers/film_page/film.cljs   line:22  column:26  ----[0m
+
+  [1mclojure.lang.PersistentList cannot be cast to clojure.lang.Named[0m
+
+  [36m20[0m  [36m(let [name (get-elem-value "name") ][0m
+  [36m21[0m  [36m  (let [producer (get-elem-value "producer") ][0m
+  [33m22[0m  [1m    (let [year (get-elem-value "year") ][0m
+  [0m  [0m  [33m    ^--- clojure.lang.PersistentList cannot be cast to clojure.lang.Named[0m
+  [36m23[0m  [36m      #'(create-film {:name name :producer producer :year year})[0m
+  [36m24[0m  [36m      )[0m
+  [36m25[0m  [36m    )[0m
+
+[36m----  Analysis Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.632 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.379 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.348 seconds.[0m
+[36m----  Could not Read  src/cljs/containers/film_page/film.cljs   line:30  column:21  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m28[0m  [36m         [:imput {:type "button" :on-click[0m
+  [36m29[0m  [36m[0m
+  [33m30[0m  [1m                   } "Create"][0m
+  [0m  [0m  [33m                    ^--- Map literal must contain an even number of forms[0m
+  [36m31[0m  [36m        ][0m
+  [36m32[0m  [36m  )[0m
+
+[36m----  Reader Error : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.656 seconds.[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.4 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.673 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.604 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.593 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js

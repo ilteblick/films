@@ -11,6 +11,13 @@
   )
 
 (defrecord FilmsRepository [] RepositoryProtocol
+  (Insert [this entity]
+    (insert film (values {:name (:name entity)
+                          :year (:year entity)
+                          :producer (:producer entity)
+                          :rate 0
+                          :avatar "lol"
+                          })))
   (FindAll [this] (select film))
   (FindOne [this id] (get (select film (where {:id id})) 0 ))
   FilmsRepositoryProtocol

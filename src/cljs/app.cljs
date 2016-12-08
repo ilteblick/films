@@ -6,8 +6,9 @@
             [ajax.core :refer [GET POST]]
             [containers.header.header :refer [header]]
             [containers.home-page.home-page :refer [home-page]]
-            [containers.film-page.film :refer [film-page]]
+            [containers.film-page.film :refer [film-page create-film-form]]
             [bootstrap.socket :refer [socket handle-like-response]])
+
   (:import goog.History)
   )
 
@@ -23,8 +24,12 @@
 (defn current-page []
   [:div [(session/get :current-page)]])
 
+
 (secretary/defroute "/" []
                     (session/put! :current-page #'home-page))
+
+(secretary/defroute "/film/create" []
+                    (session/put! :current-page #'create-film-form))
 
 (secretary/defroute "/film/:id" [id]
                     (session/put! :current-page #(film-page id)))

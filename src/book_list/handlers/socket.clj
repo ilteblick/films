@@ -36,14 +36,10 @@
     )
   )
 
-(defmacro print-hyi []
-  `(println "HYI")
-  )
-
 
 (defn socket-handler [request]
   (kit/with-channel request channel
-                    (dosync (do (alter ws-conns conj channel) (println "chanel open") (print-hyi) (println (count @ws-conns))))
+                    (dosync (do (alter ws-conns conj channel) (println "chanel open") (println (count @ws-conns))))
 
                     (kit/on-close channel (fn [status]
                                             (println "chanel closed " status)
@@ -54,12 +50,14 @@
                     (kit/on-receive channel (fn [data]
                                               (send-off printer print data)
                                               (let [socket-request (json/parse-string data)]
+                                                (println socket-request)
                                                 (case (socket-request "req")
-                                                  "HYI" (doall (for [c @ws-conns]
-                                                               (kit/send! c "Sam HYI")
+                                                  "lol" (doall (for [c @ws-conns]
+                                                               (kit/send! c "Sam lol")
                                                                ))
                                                   "like/film" (like (socket-request "id"))
                                                   "dislike/film" (dislike (socket-request "id"))
+                                                  "create/film" (println data)
                                                   )))
                                               )
                     )

@@ -8,6 +8,7 @@
             [book-list.helper [friend-auth :refer [credential-fn reg-workflow]]]
             [ring.middleware.reload :as reload]
             [org.httpkit.server :as kit]
+            [book-list.service.auth]
             )
   (:use compojure.core
 
@@ -22,19 +23,18 @@
         book-list.routes.films
         book-list.routes.auth
         book-list.routes.comment
+
         )
-  (:import (java.io BufferedWriter FileWriter))
+  (:import (java.io BufferedWriter FileWriter)
+           (book_list.service.auth AuthService))
   )
 
 
 
 
 (defn simple-logging-middleware [app]
-
   (fn [req]
-
     (app req)
-
     ))
 
 (defn app-routes []
@@ -46,13 +46,14 @@
 
     ))
 
+
 (def app
   (-> (app-routes)
       (friend/authenticate {:login-uri "/authorization"
                             :redirect-on-auth? false
                             :login-failure-handler (fn [req] (json-response {:error "Username or password have been entered correctly."
                                                                              :success "false"}))
-                            :credential-fn (credential-fn)
+                            :credential-fn (.Authorization (AuthService.))
                             :workflows [(workflows/interactive-form)
                                         (reg-workflow)]
                             })

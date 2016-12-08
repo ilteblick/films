@@ -35,4 +35,5 @@
            (GET "/creds" req (json-response (-> req :session)))
            (GET "/socket" [] socket-handler)
            (route/resources "/")
-           (ANY "*" [] (route/not-found (layout/application "Страница не найдена" (contents/not-found)))))
+           (ANY "*" [] (route/not-found (layout/application "Страница не найдена" (contents/not-found))))
+           (GET "*" [] (loading-page)))

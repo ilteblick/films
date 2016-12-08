@@ -7,6 +7,7 @@
 
 (defroutes auth-routes
            (GET "/register" [] (-> (layout/application "Регистрация" (contents/registration))))
+
            (GET "/authorization" [] (loading-page))
            (GET "/password-recovery" [] (layout/application "Восстановление пароля" (contents/password-recovery)))
            (friend/logout (ANY "/logout" request (ring.util.response/redirect "/"))))

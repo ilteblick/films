@@ -18,3 +18,8 @@
 (defn dislike-film [id]
   (.DislikeFilm (FilmsRepository.) id)
   )
+
+(defn create-film [data]
+  (println data)
+  (.Insert (FilmsRepository.) data)
+  )

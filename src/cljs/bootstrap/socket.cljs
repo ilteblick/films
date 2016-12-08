@@ -6,6 +6,7 @@
 (def socket (atom nil))
 
 (defn like-film [id]
+  (js/console.log (.stringify js/JSON (clj->js {:req "like/film" :id id})))
   #(.send @socket (.stringify js/JSON (clj->js {:req "like/film" :id id})))
   )
 
@@ -18,4 +19,9 @@
   (if (= (:id @current-film-reducer) (.-id film))
     (swap! current-film-reducer assoc :rate (.-rate film))
     )
+  )
+
+(defn create-film [data]
+  (js/console.log (.stringify js/JSON (clj->js {:req "create/film" :data data})))
+  #(.send @socket (.stringify js/JSON (clj->js {:req "create/film" :data data})))
   )

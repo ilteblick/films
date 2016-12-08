@@ -3,17 +3,17 @@
         book-list.repositories.protocol)
   (:require [cemerick.friend.credentials :as creds]))
 
-(defentity users)
+(defentity user)
 
 (defprotocol UserRepositoryProtocol
   (FindUserByUsername [this username]))
 
 (defrecord UserRepository []
   UserRepositoryProtocol
-  (FindUserByUsername [this username] (select users (where {:username username})))
+  (FindUserByUsername [this username] (select user (where {:username username})))
 
   RepositoryProtocol
   (Insert [this entity]
-    (insert users (values {:username (:username entity)
+    (insert user (values {:username (:username entity)
                           :email (:email entity)
                           :password (creds/hash-bcrypt (:password entity))}))))

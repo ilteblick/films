@@ -32,17 +32,14 @@
                                     (reset! films-reducer response)))
                        :response-format (json-response-format {:keywords? true})
                        })
-
-
        :reagent-render
        (fn []
-
          [:div
           [:h1 "HOME PAGE"]
           (for [film @films-reducer]
             [film-component film]
             )
-
+          [:a {:href "/film/create" } "create film"]
           ]
          )
        })
