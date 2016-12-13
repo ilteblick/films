@@ -1,5 +1,7 @@
 (ns bootstrap.socket
-  (:require [containers.film-page.reducer :refer [current-film-reducer]])
+  (:require [containers.film-page.reducer :refer [current-film-reducer]]
+            [containers.home-page.reducer :refer [films-reducer]]
+            )
   )
 
 
@@ -21,7 +23,23 @@
     )
   )
 
+(defn jsx->clj
+  [x]
+  (into []
+        (for
+          [k (.keys js/Object x)]
+          (let [item (get-in x k)]
+            (into {}
+                  (for [key (.keys js/Object item)]
+                    [(keyword key) (aget item key)]
+                    )
+                  )
+        ))))
+
 (defn create-film [data]
-  (js/console.log (.stringify js/JSON (clj->js {:req "create/film" :data data})))
-  #(.send @socket (.stringify js/JSON (clj->js {:req "create/film" :data data})))
+  (.send @socket (.stringify js/JSON (clj->js {:req "create/film" :data data})))
+  )
+
+(defn handle-create-film-response [films]
+  (reset! films-reducer (jsx->clj films))
   )

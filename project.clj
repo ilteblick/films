@@ -33,6 +33,7 @@
                  [mysql/mysql-connector-java "5.1.30"]
                  [fogus/ring-edn "0.2.0"]
                  [cljs-ajax "0.5.8"]
+                 [bouncer "1.0.0"]
                  [com.cemerick/friend "0.2.3"]]
   :plugins [[lein-ring "0.9.7"]
             [lein-environ "1.0.2"]

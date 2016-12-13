@@ -7,7 +7,7 @@
             [containers.header.header :refer [header]]
             [containers.home-page.home-page :refer [home-page]]
             [containers.film-page.film :refer [film-page create-film-form]]
-            [bootstrap.socket :refer [socket handle-like-response]])
+            [bootstrap.socket :refer [socket handle-like-response handle-create-film-response]])
 
   (:import goog.History)
   )
@@ -48,11 +48,13 @@
          [["onopen" (fn [] (js/console.log "OPEN")  )]
           ["onclose" (fn [] (js/console.log "CLOSE"))]
           ["onerror" (fn [e] (js/console.log (str "ERROR:" e)))]
-          ["onmessage" (fn [data] (let [socket-request (parseJSON (.-data data))]
+          ["onmessage" (fn [data]
+                         (let [socket-request (parseJSON (.-data data))]
                                     (case (.-req socket-request)
                                       "like" (handle-like-response (.-data socket-request))
                                       "dislike" (handle-like-response (.-data socket-request))
                                       "users" (js/console.log (.-data socket-request))
+                                      "films" (handle-create-film-response (.-data socket-request))
                                       )
                                     )
                          )]]))

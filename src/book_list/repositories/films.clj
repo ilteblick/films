@@ -12,9 +12,9 @@
 
 (defrecord FilmsRepository [] RepositoryProtocol
   (Insert [this entity]
-    (insert film (values {:name (:name entity)
-                          :year (:year entity)
-                          :producer (:producer entity)
+    (insert film (values {:name (entity "name")
+                          :year (entity "year")
+                          :producer (entity "producer")
                           :rate 0
                           :avatar "lol"
                           })))

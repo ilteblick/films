@@ -10,23 +10,45 @@
   (.-value (.getElementById js/document id))
   )
 
+(defn send []
+  (fn []
+    (let [name (get-elem-value "name") ]
+      (let [producer (get-elem-value "producer") ]
+        (let [year (get-elem-value "year") ]
+          (create-film 1)
+          )
+        )
+      ))
+  )
+
+(defn lol []
+    [:div
+     [:div [:h1 "SUKA2122sasdasd3s1"]]
+
+     [:div [:input {:id "name" :name "name"}]]
+
+     [:div [:input {:id "producer" :name "producer"}]]
+     [:div [:input {:id "year" :name "year"}]]
+     [:div [:input {:type "button" :value "lol" :on-click #(let [name (get-elem-value "name") ]
+                                                            (let [producer (get-elem-value "producer") ]
+                                                              (let [year (get-elem-value "year") ]
+                                                                (create-film {:name name :producer producer :year year})
+                                                                )
+                                                              )
+                                                            )}]]
+     ]
+  )
+
 (defn create-film-form []
-       [:div
-         [:input {:id "name" :name "name"}]
-         [:input {:id "producer" :name "producer"}]
-         [:input {:id "year" :name "year"}]
-         [:imput {:type "button"
-                  :on-click (fn []
-                     (let [name (get-elem-value "name") ]
-                       (let [producer (get-elem-value "producer") ]
-                         (let [year (get-elem-value "year") ]
-                           (create-film {:name name :producer producer :year year})
-                           )
-                         )
-                       )
-                     )
-                   } "Create"]
-        ]
+  (reagent/create-class
+    {
+
+     :reagent-render
+     (fn []
+       [lol]
+     )
+     } )
+
   )
 
 (defn comment-component [comment]
