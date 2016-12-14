@@ -20,6 +20,8 @@
                           })))
   (FindAll [this] (select film))
   (FindOne [this id] (get (select film (where {:id id})) 0 ))
+  (Delete [this id]
+    (delete film (where {:id id})))
   FilmsRepositoryProtocol
   (LikeFilm [this id] (exec-raw ["UPDATE films.film set film.rate = film.rate+1 WHERE film.id=?" [id]]))
   (DislikeFilm [this id] (exec-raw ["UPDATE films.film set film.rate = film.rate-1 WHERE film.id=?" [id]]))

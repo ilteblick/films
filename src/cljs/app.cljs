@@ -6,8 +6,10 @@
             [ajax.core :refer [GET POST]]
             [containers.header.header :refer [header]]
             [containers.home-page.home-page :refer [home-page]]
-            [containers.film-page.film :refer [film-page create-film-form]]
-            [bootstrap.socket :refer [socket handle-like-response handle-create-film-response]])
+            [containers.film-page.film :refer [film-page]]
+            [containers.create-film-form.create-film-form :refer [create-film-form]]
+            [bootstrap.socket :refer [socket handle-like-response handle-create-film-response]]
+            )
 
   (:import goog.History)
   )

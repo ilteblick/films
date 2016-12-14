@@ -1,7 +1,7 @@
 (ns book-list.handlers.socket
   (:require [org.httpkit.server :as kit]
                 [cheshire.core :as json]
-            [book-list.service.films :refer [like-film dislike-film get-film create-film get-all-films]])
+            [book-list.service.films :refer [like-film dislike-film get-film create-film get-all-films delete-film]])
   )
 
 
@@ -42,6 +42,12 @@
     (send-all {:req "films" :data films}))
   )
 
+(defn delete-film-handler [id]
+  (delete-film id)
+  (let [films (get-all-films)]
+    (send-all {:req "films" :data films}))
+  )
+
 
 (defn socket-handler [request]
   (kit/with-channel request channel
@@ -63,6 +69,7 @@
                                                                ))
                                                   "like/film" (like (socket-request "id"))
                                                   "dislike/film" (dislike (socket-request "id"))
+                                                  "delete/film" (delete-film-handler (socket-request "id"))
                                                   "create/film" (create-film-handler (socket-request "data"))
                                                   )))
                                               )

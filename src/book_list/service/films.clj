@@ -21,6 +21,10 @@
   (.DislikeFilm (FilmsRepository.) id)
   )
 
+(defn delete-film [id]
+  (.Delete (FilmsRepository.) id)
+  )
+
 (defn validate-film-create [params]
   (first
     (b/validate

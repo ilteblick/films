@@ -3,20 +3,17 @@
             [containers.home-page.reducer :refer [films-reducer ]]
               [ajax.core :refer [GET POST json-response-format]]
             [secretary.core :as secretary :include-macros true]
-            [bootstrap.socket :refer [socket create-film]]
+            [bootstrap.socket :refer [socket create-film delete-film]]
             )
   )
 
 
 (defn film-component [film]
-    (js/console.log "SYKA" (:id film))
-
          ^{:key (:id film)} [:div
           [:h1 "Name: " (:name film)]
           [:a {:href (str "/film/" (:id film))} "about"]
+          [:input {:type "button" :value "delete" :on-click (delete-film (:id film))}]
           ]
-
-
   )
 
 (defn get-elem-value [id]

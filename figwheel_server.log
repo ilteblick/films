@@ -11125,3 +11125,75 @@ notifying browser that file changed:  out\bootstrap\socket.js
 [0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.938 seconds.[0m
 notifying browser that file changed:  out\bootstrap\socket.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.896 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.379 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.005 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.745 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.728 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\film_page\film.js
+notifying browser that file changed:  out\containers\create_film_form\create_film_form.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/containers/film_page/film.cljs   line:32  column:1  ----[0m
+
+  [1mcreate-film-form already refers to: containers.create-film-form.create-film-form/create-film-form being replaced by: containers.film-page.film/create-film-form[0m
+
+  [36m28[0m  [36m                                                            )}]][0m
+  [36m29[0m  [36m     ][0m
+  [36m30[0m  [36m  )[0m
+  [36m31[0m  [36m[0m
+  [33m32[0m  [1m(defn create-film-form [][0m
+  [0m  [0m  [33m^--- create-film-form already refers to: containers.create-film-form.create-film-form/create-film-form being replaced by: containers.film-page.film/create-film-form[0m
+  [36m33[0m  [36m  (reagent/create-class[0m
+  [36m34[0m  [36m    {[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m     :reagent-render[0m
+  [36m37[0m  [36m     (fn [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/containers/film_page/film.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.937 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.866 seconds.[0m
+[36m----  Could not Analyze  src/cljs/app.cljs  ----[0m
+
+  [1mInvalid :refer, var containers.film-page.film/create-film-form does not exist [0m
+
+[36m----  Analysis Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.502 seconds.[0m
+[36m----  Could not Analyze  src/cljs/app.cljs  ----[0m
+
+  [1mInvalid :refer, var containers.film-page.film/create-film-form does not exist [0m
+
+[36m----  Analysis Error : Please see src/cljs/app.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.872 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.755 seconds.[0m
+notifying browser that file changed:  out\book_list\cljs\app.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.511 seconds.[0m
+notifying browser that file changed:  out\containers\create_film_form\create_film_form.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.531 seconds.[0m
+notifying browser that file changed:  out\containers\film_page\film.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.792 seconds.[0m
+notifying browser that file changed:  out\bootstrap\socket.js
+notifying browser that file changed:  out\containers\home_page\home_page.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.484 seconds.[0m
+notifying browser that file changed:  out\containers\home_page\home_page.js

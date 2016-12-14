@@ -16,6 +16,10 @@
   #(.send @socket (.stringify js/JSON (clj->js {:req "dislike/film" :id id})))
   )
 
+(defn delete-film [id]
+  #(.send @socket (.stringify js/JSON (clj->js {:req "delete/film" :id id})))
+  )
+
 
 (defn handle-like-response [film]
   (if (= (:id @current-film-reducer) (.-id film))
