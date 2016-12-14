@@ -1,8 +1,14 @@
 (ns book-list.service.films
-  (:use [book-list.repositories.films])
+  (:use [book-list.repositories.films]
+        [book-list.models.film]
+        )
   (:require   [bouncer.core :as b]
-              [bouncer.validators :as v])
-  (:import [book_list.repositories.films FilmsRepository])
+              [bouncer.validators :as v]
+
+              )
+  (:import [book_list.repositories.films FilmsRepository]
+           [book_list.models.film FilmModel]
+           )
   )
 
 (defn get-all-films []
@@ -35,7 +41,7 @@
       )))
 
 (defn create-film [data]
-  (let [film {:name (data "name") :producer (data "producer") :year (data "year")}]
+  (let [film (FilmModel. nil (data "name") (data "year") (data "producer") nil nil)]
     (let [errors (validate-film-create film)]
       (if errors
         (println "IDI NAHYI" (str errors))
