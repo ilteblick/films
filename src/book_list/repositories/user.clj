@@ -10,7 +10,7 @@
 
 (defrecord UserRepository []
   UserRepositoryProtocol
-  (FindUserByUsername [this username] (select user (where {:username username})))
+  (FindUserByUsername [this username] (first (select user (where {:username username}))))
 
   RepositoryProtocol
   (Insert [this entity]

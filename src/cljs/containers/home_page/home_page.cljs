@@ -9,7 +9,7 @@
 
 
 (defn film-component [film]
-         ^{:key (:id film)} [:div
+         [:div
           [:h1 "Name: " (:name film)]
           [:a {:href (str "/film/" (:id film))} "about"]
           [:input {:type "button" :value "delete" :on-click (delete-film (:id film))}]

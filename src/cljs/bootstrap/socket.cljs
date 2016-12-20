@@ -44,6 +44,11 @@
   (.send @socket (.stringify js/JSON (clj->js {:req "create/film" :data data})))
   )
 
-(defn handle-create-film-response [films]
+(defn film-response [films]
+  (for [k films]
+    (if (= (:id @current-film-reducer) (.-id (get-in films k)))
+      (js/console.log "YDALEN")
+      )
+    )
   (reset! films-reducer (jsx->clj films))
   )

@@ -40,7 +40,9 @@
         (throw "User already is used"))))
   (Authorization [this]
     (fn [auth-map]
+      (println "syka" (str auth-map))
       (let [user (.FindUserByUsername (UserRepository.) (:username auth-map))]
+        (println "syka2" (str user))
         (if (not (= user nil))
           (if (creds/bcrypt-verify (:password auth-map) (:password user))
             {:identity (:id user) :roles (get roles :user) :user user})))))

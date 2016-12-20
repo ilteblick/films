@@ -1,6 +1,7 @@
 (ns containers.film-page.film
   (:require [reagent.core :as reagent]
             [containers.film-page.reducer :refer [current-film-reducer comments-reducer]]
+            [containers.header.reducer :refer [creds-reducer]]
             [ajax.core :refer [GET POST json-response-format]]
             [bootstrap.socket :refer [like-film dislike-film create-film]]
   )
@@ -40,8 +41,13 @@
         [:h1 (:producer @current-film-reducer)]
         [:h1 (:year @current-film-reducer)]
         [:h1 (:rate @current-film-reducer)]
-        [:input {:type "button" :value "+" :on-click (like-film id)}]
-        [:input {:type "button" :value "-" :on-click (dislike-film id)}]
+        (if (= @creds-reducer "ZALOGINEN")
+            [:div
+             [:input {:type "button" :value "+" :on-click (like-film id)}]
+             [:input {:type "button" :value "-" :on-click (dislike-film id)}]
+             ]
+          )
+
         (for [comment @comments-reducer]
           [comment-component comment]
           )

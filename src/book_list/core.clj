@@ -9,7 +9,7 @@
             [ring.middleware.reload :as reload]
             [org.httpkit.server :as kit]
             [book-list.service.auth]
-            )
+            [ring.util.response :as response])
   (:use compojure.core
 
         compojure.handler
@@ -49,13 +49,15 @@
 
 (def app
   (-> (app-routes)
-      (friend/authenticate {:login-uri "/authorization"
-                            :redirect-on-auth? false
-                            :login-failure-handler (fn [req] (json-response {:error "Username or password have been entered correctly."
-                                                                             :success "false"}))
-                            :credential-fn (.Authorization (AuthService.))
-                            :workflows [(workflows/interactive-form)
-                                        (reg-workflow)]
+      (friend/authenticate {:login-uri             "/authorization"
+                            :redirect-on-auth?     false
+                            :login-failure-handler (fn [request]
+                                                     (if (not (= (get-in request [:headers "x-requested-with"]) nil))
+                                                       (response/status (json-response {:error   "Login or password is incorrect"
+                                                                                        :success "true"}) 401)))
+                            :credential-fn         (.Authorization (AuthService.))
+                            :workflows             [(workflows/interactive-form)
+                                                    (reg-workflow)]
                             })
       site
       (middleware/wrap-json-body {:keywords? true})
